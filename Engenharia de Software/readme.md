@@ -4,4 +4,37 @@
 
 A engenharia de software está focada em ir além do código. Ela mantém seu foco em todos os aspectos da produção de software, em seu desempenho através do tempo e em evitar empecilhos na necessidade de mudanças e manutenções. Ela está sempre presente desde a coleta de requisitos com o cliente, passando pelos processos de desenvolvimento e seguindo até a validação e evolução do software. 
 
+# Atividade de requisitos 
 
+[Link](https://docs.google.com/presentation/d/1GMds68vXowb3h_GFtI3fwKeXJQQJjm7L-wL0BJhIfLI/edit#slide=id.p7) dos slides
+
+- Coletar os requisitos funcionais e não-funcionais de um sistema.
+- Requisitos são as necessidades do cliente
+- Funcionais: são tarefas ou ações do sistema
+- Não-funcionais: são qualidades do sistema
+
+## Software: gerenciamento de hospital
+
+### Requisitos funcionais:
+- Cadastro de paciente
+- Cadastro de medicamentos
+- Busca por medicamentos
+- Cadastro de funcionários
+- Busca por laudos
+- Busca por resultados de exames
+- Busca por status de paciente 
+
+### Requisitos não funcionais:
+- Sistema desktop
+- Execução rápida
+- Sistema integrado com outras aplicações 
+- Sistema conectado a um banco de dados
+- Interface simples e minimalista
+
+# 
+## Casos de uso
+...em andamento
+## Sequencia 
+...em andamento
+## Diagrama de classes 
+...em andamento
