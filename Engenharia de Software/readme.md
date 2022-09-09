@@ -13,16 +13,14 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 - Funcionais: são tarefas ou ações do sistema
 - Não-funcionais: são qualidades do sistema
 
-## Software: gerenciamento de hospital
+## Software: gerenciamento de farmacia
 
 ### Requisitos funcionais:
 - Cadastro de paciente
 - Cadastro de medicamentos
 - Busca por medicamentos
 - Cadastro de funcionários
-- Busca por laudos
-- Busca por resultados de exames
-- Busca por status de paciente 
+
 
 ### Requisitos não funcionais:
 - Sistema desktop
