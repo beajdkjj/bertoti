@@ -31,7 +31,6 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 
 # 
 ## Casos de uso
-...em andamento
 ## Sequencia 
 ...em andamento
 ## Diagrama de classes 
