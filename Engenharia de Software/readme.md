@@ -31,6 +31,10 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 
 # 
 ## Casos de uso
+<p align="center">
+  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/casos_de_uso.png?raw=true" width="900" title="casos de uso">
+</p>
+
 ## Sequencia 
 ...em andamento
 ## Diagrama de classes 
