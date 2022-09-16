@@ -36,6 +36,12 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 </p>
 
 ## Sequencia 
-...em andamento
+<p align="center">
+  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/sequencia.PNG" width="900" title="Diagrama de Classe-1">
+</p>
+
 ## Diagrama de classes 
-...em andamento
+<p align="center">
+  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/diagramaClasses1.PNG" width="900" title="Diagrama de Classe-1">
+  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/diagramaClasses2.PNG" width="900" title="Diagrama de Classe-2">
+</p>
