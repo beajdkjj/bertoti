@@ -8,6 +8,10 @@
  * @author Aluno
  */
 public class Medicacao {
+
+    static Object getMed() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     private String nome;
     private Especificacao espec;
 

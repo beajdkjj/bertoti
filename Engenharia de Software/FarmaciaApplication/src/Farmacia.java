@@ -25,4 +25,12 @@ public class Farmacia {
         }
         return medEncontrados; 
     }
+    public Medicacao buscarMedicacaoPorEsp(String medicacao){
+        for(Medicacao espec:medicacoes){
+            if (espec.getMed().equals(medicacao)){
+                return espec; 
+        }     
+    }
+        return null;
+}
 }
