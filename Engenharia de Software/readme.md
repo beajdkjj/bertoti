@@ -32,16 +32,16 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 # 
 ## Casos de uso
 <p align="center">
-  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/casos_de_uso.png?raw=true" width="900" title="casos de uso">
+  <img src="assets/casos_de_uso.png" width="900" title="casos de uso">
 </p>
 
 ## Sequencia 
 <p align="center">
-  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/sequencia.PNG" width="900" title="Diagrama de Classe-1">
+  <img src="" width="900" title="Diagrama de Classe-1">
 </p>
 
 ## Diagrama de classes 
 <p align="center">
-  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/diagramaClasses1.PNG" width="900" title="Diagrama de Classe-1">
-  <img src="https://github.com/beatricelopes/bertoti/blob/main/Engenharia%20de%20Software/assets/diagramaClasses2.PNG" width="900" title="Diagrama de Classe-2">
+  <img src="" width="900" title="Diagrama de Classe-1">
+  <img src="" width="900" title="Diagrama de Classe-2">
 </p>
