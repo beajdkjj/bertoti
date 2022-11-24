@@ -22,7 +22,7 @@ public class Farmacia {
     
     public Remedio getRemedio(String composoicaoRemedio){
         for(Remedio rem: remedios){
-            if (rem.getEspec().getComposicao().equals(remedios)){
+            if (rem.getEspec().getComposicao().equals(composoicaoRemedio)){
                 return rem; 
             }     
         }
@@ -51,5 +51,12 @@ public class Farmacia {
     		}
     	}
     	return null;
+    }
+    //metodos para me ajudar a testar
+    public List<Remedio> getRemedios(){
+    	return this.remedios;
+    }
+    public List<Cliente> getClientes(){
+    	return this.clientes;
     }
 }

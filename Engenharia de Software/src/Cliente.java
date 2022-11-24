@@ -6,9 +6,8 @@ public class Cliente {
 	
 	private DadosCliente espec;
 	
-	protected Cliente(String cpf, DadosCliente espec) {
+	protected Cliente(DadosCliente espec) {
 		super();
-		this.cpf = cpf;
 		this.espec = espec;
 	}
 	
