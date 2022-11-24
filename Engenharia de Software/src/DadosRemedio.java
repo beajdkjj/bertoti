@@ -34,5 +34,8 @@ public class DadosRemedio {
 		this.composicao = composicao;
 	}
 
+	public boolean comparar(DadosRemedio remedio) {
+		return remedio.composicao == this.composicao;
+	}
 
 }

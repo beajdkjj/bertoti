@@ -4,13 +4,15 @@ public class DadosCliente {
 	public String clienteNome;
 	public String clienteTelefone;
 	public String clienteEndereco;
+	private String cpf;
 
-	public DadosCliente(String clienteNome, String clienteTelefone, String clienteEndereco) {
-	super();
-	this.clienteNome = clienteNome;
-	this.clienteTelefone = clienteTelefone;
-	this.clienteEndereco = clienteEndereco;
-}
+	public DadosCliente(String clienteNome, String clienteTelefone, String clienteEndereco, String cpf) {
+		super();
+		this.clienteNome = clienteNome;
+		this.clienteTelefone = clienteTelefone;
+		this.clienteEndereco = clienteEndereco;
+		this.cpf = cpf;
+	}
 
 	public String getClienteNome() {
 		return clienteNome;
@@ -35,7 +37,15 @@ public class DadosCliente {
 	public void setClienteEndereco(String clienteEndereco) {
 		this.clienteEndereco = clienteEndereco;
 	}
-	
-	
-}
+	public String getCpf() {
+		return cpf;
+	}
 
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	public boolean comparar(DadosCliente dadoCliente) {
+		return dadoCliente.getCpf() == this.cpf;
+	}
+}
