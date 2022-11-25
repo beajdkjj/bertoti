@@ -30,18 +30,13 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 - Interface simples e minimalista
 
 # 
-## Casos de uso
+<h1 align="center">Casos de uso</h1>
 <p align="center">
   <img src="assets/casos_de_uso.png" width="900" title="casos de uso">
 </p>
 
-## Sequencia 
+<h1 align="center"> Diagrama de classes</h1> 
 <p align="center">
-  <img src="" width="900" title="Diagrama de Classe-1">
-</p>
-
-## Diagrama de classes 
-<p align="center">
-  <img src="" width="900" title="Diagrama de Classe-1">
-  <img src="" width="900" title="Diagrama de Classe-2">
+  <img src="assets/clienteCaptura.PNG" width="900" title="Diagrama de Classe-1">
+  <img src="assets/medCaptura.PNG" width="900" title="Diagrama de Classe-2">
 </p>
