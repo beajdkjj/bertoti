@@ -6,7 +6,7 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 
 # Atividade de requisitos 
 
-[Link](https://docs.google.com/presentation/d/1GMds68vXowb3h_GFtI3fwKeXJQQJjm7L-wL0BJhIfLI/edit#slide=id.p7) dos slides
+[Link](https://docs.google.com/presentation/d/1GMds68vXowb3h_GFtI3fwKeXJQQJjm7L-wL0BJhIfLI/edit#slide=id.p7) dos slides das aulas
 
 - Coletar os requisitos funcionais e não-funcionais de um sistema.
 - Requisitos são as necessidades do cliente
@@ -32,11 +32,22 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 # 
 <h1 align="center">Casos de uso</h1>
 <p align="center">
-  <img src="assets/casos_de_uso.png" width="900" title="casos de uso">
+  <img src="assets/casos_de_uso.png" width="600">
 </p>
 
 <h1 align="center"> Diagrama de classes</h1> 
 <p align="center">
-  <img src="assets/clienteCaptura.PNG" width="900" title="Diagrama de Classe-1">
-  <img src="assets/medCaptura.PNG" width="900" title="Diagrama de Classe-2">
+  <img src="assets/diagramaCliente.png" width="600">
+  <img src="assets/diagramaRemedio.png" width="600">
+</p>
+
+<h1 align="center">Codigos e seus diagramas</h1>
+
+<p align="center">
+  <img src="assets/classCliente.png" width="600">
+  <img src="assets/classRemedio.png" width="600">
+  <img src="assets/FrmCliente(1).png" width="600">
+  <img src="assets/FrmCliente(2).png" width="600">
+  <img src="assets/ClienteEspec.png" width="600">
+  <img src="assets/RemedioEspec.png" width="600">
 </p>

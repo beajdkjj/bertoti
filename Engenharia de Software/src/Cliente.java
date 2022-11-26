@@ -1,12 +1,9 @@
 
 public class Cliente {
-	static Object getCliente() {
-		return null;
-	}
-	
+
 	private DadosCliente espec;
 	
-	protected Cliente(DadosCliente espec) {
+	public Cliente(DadosCliente espec) {
 		super();
 		this.espec = espec;
 	}

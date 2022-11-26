@@ -1,12 +1,10 @@
 
 public class Remedio {
-	static Object getMed() {
-		return null;
-	}
+
 	private String novoMedicamento;
 	private DadosRemedio espec;
 
-	protected Remedio(String nome, DadosRemedio espec) {
+	public Remedio(String nome, DadosRemedio espec) {
 		super();
 		this.novoMedicamento = nome;
 		this.espec = espec;
