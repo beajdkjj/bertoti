@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T23:57:46.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="RBbIS5XQmFs-swKtBbht" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-26T00:00:48.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="xIIxwjevn8KCC8uAgKh4" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1237" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
         <mxCell id="Z8qsxs5YyLEdX0_qyq7x-8" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Z8qsxs5YyLEdX0_qyq7x-5" vertex="1">
           <mxGeometry y="78" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Z8qsxs5YyLEdX0_qyq7x-9" value="+ getnovoMedicamento: String()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;strokeColor=none;" parent="Z8qsxs5YyLEdX0_qyq7x-5" vertex="1">
+        <mxCell id="Z8qsxs5YyLEdX0_qyq7x-9" value="+ getnovoMedicamento: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;strokeColor=none;" parent="Z8qsxs5YyLEdX0_qyq7x-5" vertex="1">
           <mxGeometry y="86" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Z8qsxs5YyLEdX0_qyq7x-10" value="+ setnovoMedicamento (String remedios)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Z8qsxs5YyLEdX0_qyq7x-5" vertex="1">
