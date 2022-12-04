@@ -37,8 +37,8 @@ A engenharia de software está focada em ir além do código. Ela mantém seu fo
 
 <h1 align="center"> Diagrama de classes</h1> 
 <p align="center">
-  <img src="assets/diagramaCliente.png" width="600">
-  <img src="assets/diagramaRemedio.png" width="600">
+  <img src="assets/diagramaCliente.PNG" width="600">
+  <img src="assets/diagramaRemedio.PNG" width="600">
 </p>
 
 <h1 align="center">Codigos e seus diagramas</h1>
