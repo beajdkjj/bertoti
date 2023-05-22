@@ -1,4 +1,15 @@
-# demo-quarkus-1
+# Laboratório Banco de Dados - Terceiro Semestre
+Nesse semestre fizemos nossa primeira API Rest usando quarkus e Java
+
+
+
+
+
+
+
+
+
+# Quarkus Projects
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
