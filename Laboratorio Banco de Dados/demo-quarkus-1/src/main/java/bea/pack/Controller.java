@@ -22,8 +22,10 @@ public class Controller {
 	private List<Fruta> frutas = new ArrayList<Fruta>();
 
     public Controller() {
-    	frutasExistentes.add(new Fruta("Fruta1",10));
-    	frutasExistentes.add(new Fruta("Fruta2",10));
+    	frutasExistentes.add(new Fruta("banana",10));
+    	frutasExistentes.add(new Fruta("abacaxi",10));
+    	frutasExistentes.add(new Fruta("morango",10));
+    	frutasExistentes.add(new Fruta("uva",10));
     }
 
     
@@ -61,8 +63,8 @@ public class Controller {
     @DELETE
 
     @Path("/carrinho")
-    public Response delete(Fruta fruta) {
-        frutas.removeIf(existingFruta -> existingFruta.getNome().contentEquals(fruta.getNome()));
+    public Response delete(@FormParam("nome") String name) {
+        frutas.removeIf(existingFruta -> existingFruta.getNome().equals(name));
         String json = new Gson().toJson(frutas);
     	return Response.status(200).entity(json).build();
     }
