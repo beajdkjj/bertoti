@@ -22,10 +22,10 @@ public class Controller {
 	private List<Fruta> frutas = new ArrayList<Fruta>();
 
     public Controller() {
-    	frutasExistentes.add(new Fruta("banana",10));
-    	frutasExistentes.add(new Fruta("abacaxi",10));
-    	frutasExistentes.add(new Fruta("morango",10));
-    	frutasExistentes.add(new Fruta("uva",10));
+    	frutasExistentes.add(new Fruta("banana",10, 1.0));
+    	frutasExistentes.add(new Fruta("abacaxi",10, 1.0));
+    	frutasExistentes.add(new Fruta("morango",10, 1.0));
+    	frutasExistentes.add(new Fruta("uva",10, 1.0));
     }
 
     
@@ -47,25 +47,24 @@ public class Controller {
     @POST
     @Path("/carrinho")
     public Response add(@FormParam("nome") String name, @FormParam("qtd") Integer qtd) {
-    	var fruit = new Fruta(name, qtd);
-    	var existe = frutasExistentes.stream()
-    			.filter(x -> x.getNome().equals(fruit.getNome()))
-    			.findAny();
+      var existe = frutasExistentes.stream()
+        .filter(x -> x.getNome().equals(name))
+        .findAny();
     	
     	if(existe.isEmpty())
-    		return Response.status(500).build();
+        return Response.status(500).build();
     	
-        frutas.add(fruit);
-        String json = new Gson().toJson(frutas);
+    	var fruit = new Fruta(name, qtd, existe.get().valor);
+      frutas.add(fruit);
+      
+      String json = new Gson().toJson(frutas);
     	return Response.status(200).entity(json).build();
     }
 
-    @DELETE
-
-    @Path("/carrinho")
-    public Response delete(@FormParam("nome") String name) {
-        frutas.removeIf(existingFruta -> existingFruta.getNome().equals(name));
-        String json = new Gson().toJson(frutas);
-    	return Response.status(200).entity(json).build();
+    @POST
+    @Path("/carrinho/comprar")
+    public Response comprar() {
+      frutas.clear();
+    	return Response.status(200).build();
     }
 }

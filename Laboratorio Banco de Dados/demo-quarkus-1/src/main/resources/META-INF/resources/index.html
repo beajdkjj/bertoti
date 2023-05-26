@@ -5,21 +5,21 @@
     <title>Frutte-Shop</title>
     <link href="dist/css/bootstrap.min.css" rel=stylesheet>
     <link href="style.css" rel="stylesheet">
+    <script src="./dist/js/carrinho.js"></script>
 </head>
 <body>
     <!--navbar-->
     <nav class="navbar navbar-light" style="background-color: #FAE888;">
-        <a class="navbar-brand" href="#">
-        <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+      <a class="navbar-brand" href="#">
         Frutte-Shop
-        </a>
+      </a>
     </nav>
 
     <!--dropdown-->
-    <div class="card">
-        <div class="">
+    <div class="row">
+    <div class="col-md-6 card">
           <p align="center" class="text-title">Carrinho</p>
-          <select class="details">
+          <select class="details" id="select-frutas">
             <option value="" selected="selected"> </option>
             <option value="banana">Banana</option>
             <option value="abacaxi">Abacaxi</option>
@@ -27,17 +27,18 @@
             <option value="uva">Uva</option>
           </select>
           <label>Fruta</label>
-        </div>
-
+        
         <!--input-->
         <div class="details">
-            <input type="number" id="quantidade" class="input-large form-control">
-            <label>Quantidade</label>
+          <input type="number" id="quantidade" class="input-large form-control">
+          <label>Quantidade</label>
         </div>
+        
+        <button onclick="adicionarAoCarrinho()" class="btn btn-outline-warning">Adicionar ao Carrinho</button>
       </div>
 
-      <!--table-qtde-->
-      <div class="card">
+    <!--table-qtde-->
+      <div class="col-md-6 card">
         <div class="details">
           <p align="center" class="text-title">Total</p>
           <table align="center">
@@ -48,15 +49,16 @@
             </thead>
             <tbody>
               <tr></tr>
-              <td>-valor-</td>
+              <td id="valor">-Valor-</td>
             </tbody>
           </table>
 
           <!--button-->
           <div align="center" class="details">
-            <button type="button" class="btn btn-outline-warning">Comprar</button>
+            <button type="button" onclick="comprar()" class="btn btn-outline-warning">Comprar</button>
         </div>
               
         </div>
       </div>
+    </div>
     </body>
