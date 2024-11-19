@@ -180,14 +180,13 @@ def plano_cartesiano():
 **Hard Skills Efetivamente Desenvolvidas**
 | Tecnologia | Classificação |
 | --- | --- |
-| Git | - |
-| Github | - |
-| Python | - |
-| Canva | - |
+| Git | Sei fazer com autonomia |
+| Python | Sei fazer com autonomia |
+| Canva | Sei fazer com autonomia |
 
 **Soft Skills Efetivamente Desenvolvidas**
 | Habilidade | Descrição |
 | --- | --- |
-| Proatividade | - |
-| Visão de Negócio | - |
-| Metodologia Agil | - |
+| Proatividade | ★★★★★★★☆☆☆ |
+| Visão de Negócio | ★★★★★★★★★☆ |
+| Metodologia Agil | ★★★★★★★★★☆ |
