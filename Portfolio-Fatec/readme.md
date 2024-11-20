@@ -18,4 +18,4 @@ Minha fluência em inglês abriu portas para projetos multinacionais desde o in�
 [Primeiro Semestre](/Portfolio-Fatec/1.OTUS) <br />
 [Segundo Semestre](/Portfolio-Fatec/2.Pro4Tech/) <br />
 [Terceiro Semestre](/Portfolio-Fatec/3.Dom%20Rock/) <br />
-
+[Quarto Semestre](/Portfolio-Fatec/4.Oracle/) <br />
