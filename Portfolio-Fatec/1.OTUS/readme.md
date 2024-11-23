@@ -180,9 +180,9 @@ def plano_cartesiano():
 **Hard Skills Efetivamente Desenvolvidas**
 | Tecnologia | Classificação |
 | --- | --- |
-| Git | Sei fazer com autonomia |
-| Python | Sei fazer com autonomia |
-| Canva | Sei fazer com autonomia |
+| Git | ★★★★★★★☆☆☆ |
+| Python | ★★★★★★★★☆☆ |
+| Canva | ★★★★★★★★★★ |
 
 **Soft Skills Efetivamente Desenvolvidas**
 | Habilidade | Descrição |

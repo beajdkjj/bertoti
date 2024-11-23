@@ -200,12 +200,12 @@ extrairRelatorio() {
 **Hard Skills Efetivamente Desenvolvidas**
 | Tecnologia | Classificação |
 | --- | --- |
-| Java | Sei fazer com ajuda |
-| Javascript | Sei fazer com autonomia |
-| Typescript | Sei fazer com ajuda|
-| Vue.js | Sei fazer com ajuda |
-| Oracle | Sei fazer com ajuda |
-| Git & Github | Sei fazer com autonomia |
+| Java | ★★★★★★★☆☆☆ |
+| Javascript | ★★★★★★★★★☆ |
+| Typescript | ★★★★★☆☆☆☆☆ |
+| Vue.js | ★★★★☆☆☆☆☆☆  |
+| Oracle | ★★★★★★★☆☆☆  |
+| Git & Github | ★★★★★★★★★☆ |
 
 **Soft Skills Efetivamente Desenvolvidas**
 | Habilidade | Descrição |

@@ -187,10 +187,10 @@ fetch("http://localhost:8080/venda/acima-meta")
 **Hard Skills Efetivamente Desenvolvidas**
 | Tecnologia | Classificação |
 | --- | --- |
-| Java | Sei fazer com ajuda |
-| Javascript | Sei fazer com autonomia |
-| MySQL | Sei fazer com autonomia |
-| Figma | Sei fazer com autonomia |
+| Java | ★★★★★★★☆☆☆ |
+| Javascript | ★★★★★★★★★☆ |
+| MySQL | ★★★★★★★★☆☆ |
+| Figma | ★★★★★★★★★★ |
 
 **Soft Skills Efetivamente Desenvolvidas**
 | Habilidade | Descrição |

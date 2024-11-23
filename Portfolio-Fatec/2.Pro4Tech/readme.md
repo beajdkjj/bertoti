@@ -96,9 +96,9 @@ CREATE TABLE `candidato` (
 **Hard Skills Efetivamente Desenvolvidas**
 | Tecnologia | Classificação |
 | --- | --- |
-| Java | Sei fazer com ajuda |
-| MySQL | Sei fazer com ajuda |
-| Figma | Sei fazer com autonomia |
+| Java | ★★★★★★★★☆☆ |
+| MySQL | ★★★★★★★★☆☆ |
+| Figma | ★★★★★★★★★★ |
 
 **Soft Skills Efetivamente Desenvolvidas**
 | Habilidade | Descrição |
