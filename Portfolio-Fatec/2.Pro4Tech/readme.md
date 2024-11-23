@@ -26,8 +26,8 @@ Também colaborei com a equipe para integrar o banco de dados às funcionalidade
 
 <details>
 
-![alt text](image.png)
-![alt text](image-1.png)
+![doc-banco](assets/image.png)
+![doc-banco](assets/image-1.png)
 
 ```
 create database bancotech;
@@ -47,6 +47,47 @@ regime    varchar(15),
 descricao varchar (500),
 salario   decimal(7,2)
 );
+```
+```
+DROP TABLE IF EXISTS `aplicado`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `aplicado` (
+  `idaplicado` int NOT NULL AUTO_INCREMENT,
+  `dia` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `idcandidato` int DEFAULT NULL,
+  `idvaga` int DEFAULT NULL,
+  `titulovaga` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`idaplicado`),
+  KEY `idcandidato` (`idcandidato`),
+  KEY `idvaga` (`idvaga`),
+  CONSTRAINT `aplicado_ibfk_1` FOREIGN KEY (`idcandidato`) REFERENCES `candidato` (`idcandidato`),
+  CONSTRAINT `aplicado_ibfk_2` FOREIGN KEY (`idvaga`) REFERENCES `vaga` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+```
+```
+CREATE TABLE `candidato` (
+  `idcandidato` int NOT NULL AUTO_INCREMENT,
+  `nascimento` varchar(20) DEFAULT NULL,
+  `nacionalidade` varchar(20) DEFAULT NULL,
+  `sexo` varchar(15) DEFAULT NULL,
+  `raca` varchar(15) DEFAULT NULL,
+  `linkedin` varchar(50) DEFAULT NULL,
+  `telefone` varchar(15) DEFAULT NULL,
+  `celular` varchar(15) DEFAULT NULL,
+  `cep` varchar(10) DEFAULT NULL,
+  `logadouro` varchar(10) DEFAULT NULL,
+  `endereco` varchar(50) DEFAULT NULL,
+  `numero` varchar(30) DEFAULT NULL,
+  `cidade` varchar(50) DEFAULT NULL,
+  `complemento` varchar(30) DEFAULT NULL,
+  `idusuario` int DEFAULT NULL,
+  PRIMARY KEY (`idcandidato`),
+  UNIQUE KEY `celular` (`celular`),
+  KEY `idusuario` (`idusuario`),
+  CONSTRAINT `candidato_ibfk_1` FOREIGN KEY (`idusuario`) REFERENCES `usuario` (`id`)
+)
 ```
 
 </details>

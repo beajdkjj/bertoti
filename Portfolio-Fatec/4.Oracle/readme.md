@@ -25,15 +25,108 @@ Configuração de indicadores para alertar sobre a validade de certificações e
 # Contribuições Pessoais
 Durante o desenvolvimento do sistema para o gerenciamento e monitoramento dos parceiros no programa Oracle PartnerNetwork, tive contribuições significativas em várias etapas do projeto, conforme evidenciado pelos meus commits no repositório. Estas são algumas das principais ações realizadas:
 
-- **Internacionalização do sistema:** Realizei a adaptação de nomenclaturas, como a alteração de "parceiros" para "partners", garantindo alinhamento com padrões internacionais e a possibilidade de uso global do sistema.
 - **Botão para extração de dados em formato XLSX:** Desenvolvi uma funcionalidade que permite aos usuários exportar relatórios em formato Excel, facilitando análises externas e o compartilhamento de informações.
-- **Criação da tabela de empresas:** Adicionei uma nova tabela para armazenar e gerenciar dados das empresas parceiras, expandindo a capacidade do sistema de lidar com informações corporativas.
-- **Correção de bugs críticos:** Identifiquei e solucionei problemas técnicos, melhorando a estabilidade do sistema e a experiência do usuário.
+
+<details>
+
+```
+ download(data:any){
+    var a = document.createElement("a") as any;
+    document.body.appendChild(a);
+    a.style = "display: none";
+    var blob =  new Blob([data], {
+                type: 'application/vnd.ms-excel'})
+        , url = window.URL.createObjectURL(blob);
+    a.href = url;
+    a.click();
+    window.URL.revokeObjectURL(url);
+}
+extrairRelatorio() {
+    axios.get("relatorio/1").then(x=>this.download(x.data));
+}
+  async getColaboradores() {
+    const response = await axios.get("colaborador/1");
+    this.listaDeColaboradores = response.data;
+  }
+```
+
+
+</details>
+
+
+
+
+- **Front da tabela de empresas:** Adicionei o front da tabela para armazenar e gerenciar dados das empresas parceiras, expandindo a capacidade do sistema de lidar com informações corporativas.
+
+<details>
+
+```
+                    <div class="header">
+                        <h4>Listagem de Empresas</h4>
+                    </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Identificador</th>
+                                <th>Compania</th>
+                                <th>País</th>
+                                <th>Cidade</th>
+                                <th>Administrador</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="selectable-row" v-for="company in companies" v-on:click="changeCompany(company.id)">
+                                <td>{{company.codigo}}</td>
+                                <td>{{company.nome}}</td>
+                                <td>{{company.pais}}</td>
+                                <td>{{company.cidade}}</td>
+                                <td>{{company.adminNome}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+</style>
+```
+```
+export default class Dashboard extends Vue {
+    selectedCompany: number = 1;
+    selectedExpertise: number = 3;
+    companies:any[] = []
+    changeCompany(id:number){
+        this.selectedCompany = id
+    }
+    createPieChartConfig(data: ProgressoItem[]) {
+        const concluded = data
+    }
+```
+
+</details>
+
 - **Tela de rastreamento ajustada:** Ajustei a interface de rastreamento para torná-la mais intuitiva e funcional, promovendo uma experiência de usuário aprimorada.
 - **Criação e finalização de trilhas:** Contribuí para o desenvolvimento de telas relacionadas às trilhas de conhecimento dos parceiros, incluindo ajustes de layout e funcionalidades completas.
+
+<details>
+
+```
+ this.integracoes.forEach((inte:any, i)=> {
+                    let ok = "percentagem-ok"+i;
+                    let nok = "percentagem-nok"+i;
+                    let porcentagemConclusao = (inte.expertisesConcluidas.id.length / inte.expertisesPorTrilha.id.length);
+                    setTimeout(() => {
+                        console.log(ok, nok)
+                        document.getElementById(ok)!.style.width = `${(porcentagemConclusao) * 100}%`
+                        document.getElementById(nok)!.style.width = `${(1 - porcentagemConclusao) * 100}%`
+                    }, 1000)
+```
+
+</details>
+
+
+
 - **Bootstrap da interface:** Implementei elementos de design utilizando Bootstrap, conferindo responsividade e estética às páginas do sistema.
 - **Resolução de conflitos de merge:** Atuei na resolução de conflitos durante a integração de diferentes branches, assegurando que o código permanecesse funcional e integrado.
-- **Lacuna View:** Criei uma visão específica para identificar lacunas de conhecimento dos parceiros em relação aos produtos oferecidos, contribuindo para estratégias de desenvolvimento direcionadas.
 
 <details>
 
@@ -99,7 +192,7 @@ extrairRelatorio() {
             })
     }
 
-
+```
 
 </details>
 
